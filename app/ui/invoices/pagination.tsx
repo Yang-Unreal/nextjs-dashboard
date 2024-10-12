@@ -13,7 +13,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { usePathname, useSearchParams } from "next/navigation";
 import { generatePagination } from "@/app/lib/utils";
 
-export default async function PaginationComponent({
+export default function PaginationComponent({
   totalPages,
 }: {
   totalPages: number;
